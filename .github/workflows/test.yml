@@ -11,5 +11,6 @@ jobs:
      - run: echo 'test is being run on a ${{runner.os}} machine!'
      - run: git clone https://github.com/kevfort/suiversions.git
      - run: cd suiversions
-     - run: ls
+     - run: cd suiversions
+     - run: python3 test.py
   
