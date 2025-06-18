@@ -1,0 +1,12 @@
+name: 'test'
+run-name: 'testing actions'
+on:
+  schedule:
+  - cron: '15 * * * *'
+  workflow_dispatch:
+jobs:
+  test-actions:
+    runs-on: ubuntu-latest
+    steps:
+     - run: echo 'test is being run on a ${{runner.os}} machine!'
+  
