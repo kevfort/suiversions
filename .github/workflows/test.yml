@@ -2,7 +2,7 @@ name: 'test'
 run-name: 'testing actions'
 on:
   schedule:
-  - cron: '45 * * * *'
+  - cron: '15 * * * *'
   workflow_dispatch:
 jobs:
   test-actions:
