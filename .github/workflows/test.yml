@@ -9,4 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - run: echo 'test is being run on a ${{runner.os}} machine!'
+     - run: python3 test.py
   
